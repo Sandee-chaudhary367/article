@@ -1,0 +1,45 @@
+.Leftpart{
+    display: flex;
+    width:63%;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+  }
+  
+  .RightPart{
+    width:35%;
+    padding: 10px;
+  }
+
+  .bottomLeft{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       border: 2px solid black;
+       padding: 20px 0;
+       border-radius: 6;
+  }
+
+  .topLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.dd2{
+  margin-top:1vh; 
+  margin-bottom:3vh; 
+  margin-left: 10px;
+  min-width: 12em;
+  display: inline-block;
+  min-height: 2em;
+  max-height:2em;
+  overflow:hidden; 
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  color: #444;
+  outline: none;
+  border: .06em solid black;
+  border-radius: 0.3em;
+}
